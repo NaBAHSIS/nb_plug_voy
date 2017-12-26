@@ -1,0 +1,799 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 avr. 2017, 10:51:36
+    Author     :~  Nabiha BAHSIS ~ 
+*/
+
+
+.wp-admin #wpadminbar #wp-admin-bar-site-name>.ab-item:before {
+   
+    content: none;
+}
+.sticky-menu #adminmenuwrap{
+	display:none;
+}
+#adminmenuback{
+	display:none;
+}
+#wp-admin-bar-new-content{
+	display:none;
+}
+   
+
+#wpcontent{
+     margin-left: 0px !important;
+}
+
+#wpfooter {
+	visibility: hidden;
+}
+body{
+        background: #f1f1f1 !important;
+}
+#wpbody{
+         background: #f1f1f1 !important;  
+    
+}
+.update-nag{
+	display:none !important;
+}
+.formulaire{
+   
+    padding: 0px !important;
+}
+
+.indicObj{
+    color: #9b9b9b;
+    padding-top: 5px;
+}
+
+.formulaire .titre_prof{
+     color: #77767c;
+     background-color:#fff;
+     padding: 10px;
+     font-size: 13px;
+     float: right;
+     margin-right: 10px;
+     border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+     box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+.formulaire .form-table{
+    max-width: 100%;
+}
+.formulaire input.titleCdv{
+    width: 95% !important;
+    font-size: 1.7em;
+   
+}
+.formulaire .impreview,.formulaire .imcdv{
+    padding: 0px !important;
+    padding-top: 20px !important;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: #72777c;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #72777c;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #72777c;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #72777c;
+}
+.formulaire #viewIMP{
+    width: 200px;
+    height: 122px;
+    margin-left: 10%;
+   /* visibility: hidden;*/
+}
+/*.formulaire .form-table td.imcdv{
+    width: 65%;
+}*/
+.formulaire .imcdv input{
+    width: 68%;
+    font-size: 1.7em;
+    
+}
+.formulaire .customaddmedia{
+    height: 40px;
+    padding-top: 8px;
+}
+.formulaire #IMG_CDV{
+    display: none;
+}
+.formulaire #labelIMG_CDV{
+    padding: 8px;
+    margin-top: -4px;
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+.formulaire  .presentation{
+        width: 95% !important;
+        font-size: 1.7em;
+}    
+.formulaire  p.desc{
+    color: #9b9b9b;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formulaire .fa-map-marker{
+    color: #2bd141;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulaire .draggable{
+    height: 45px;
+    background-color:#fff !important;
+    color: black;
+    
+}
+
+.formulaire .draggable em,.formulaire .nouveauPost em{
+    font-weight:bold;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #666666;
+}
+.formulaire .postRecit em, .formulaire .secondupdate em{
+    font-weight:bold;
+    font-style: normal;
+    color: #666666;
+}
+.formulaire .draggable span,.formulaire .droppable span, .formulaire .nouveauPost span{
+    font-weight:normal;
+    font-style: normal;
+    color: #666666;
+}
+.formulaire .draggable a,.formulaire .droppable a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.formulaire .TRvide{
+    height: 20px;
+    background-color: transparent;
+}
+.formulaire .dashicons-no{
+    font-size: 1.7em;
+    padding: 3px;
+    /*padding-right: 36px;*/
+}
+.formulaire .indicSup{
+    visibility: hidden;
+    font-size: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 13px;
+}
+.formulaire .indicdrag{
+    font-size: 10px;
+    position: absolute;
+    left: -55px;
+    bottom: 13px; 
+    display: none;
+}
+.formulaire .boutonsupprimer,.boutonsupprimerover{
+    
+   padding: 15px;
+   position: absolute;
+   bottom: 0px;
+   right: 80px;
+}
+.formulaire .draggable .dashicons-menu,.formulaire .droppable .dashicons-menu{
+   
+    cursor: move;
+    position: absolute;
+    right: 47px;
+    top: 10px;
+    font-size: 1.7em;
+}
+.formulaire .droppable.over {
+    border: 2px dashed #0085ba !important; 
+    height: 45px;
+    background-color: #fff !important;
+    padding-left:0px !important;
+    margin-bottom: 20px;
+}
+  
+.formulaire .droppable.over .overchild{
+  background: url('../background.png');
+  height: 100%;
+}
+.formulaire .firstupdate{
+    float: right;
+}
+.formulaire .firstupdate .indicUpadate{
+   
+    display: none;
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+    font-size: 9px;
+}
+.formulaire .secondupdate{
+   
+   display: none;
+}
+.formulaire .postRecit{
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.formulaire .postAction{
+   
+   visibility: hidden;
+}
+.formulaire .dashiconsUpdate,.formulaire .dashiconsUpdateover, .formulaire .dashiconsNouveau,  .formulaire .dashiconsNouveau{
+    
+    -ms-transform: rotate(211deg) ;
+    -webkit-transform: rotate(211deg);
+    transform: rotate(211deg) ;
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1.7em;
+}
+.formulaire .dashiconsMap,.formulaire .dashiconsPhoto{
+    -ms-transform: rotate(148deg) ;
+    -webkit-transform: rotate(148deg);
+    transform: rotate(148deg) ;
+    display: block;
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1.7em;
+    font-weight:normal;
+    font-style: normal;
+    color: #666666;
+}
+
+.formulaire .localisation, .formulaire .localisationUpdate{
+    
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    
+}
+
+.formulaire .localisationUpdate{
+  /*  border-top: none;
+    border-right: none;*/
+}
+.formulaire .localisation #from, .formulaire .localisation #to{
+    border-radius: 0px;
+    width: 90%;
+    font-size: 1em;
+    margin: auto;
+        
+}
+.formulaire  .markerlink{
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #999;
+    margin-left: -8px;
+    margin-right: 4px;
+    font-size: 12px; 
+    cursor: pointer;
+}
+.formulaire .localisation label,.formulaire .localisationUpdate label{
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+    padding: 5px !important;
+    
+}
+.formulaire .localisation #mapAct,.formulaire .localisationUpdate #mapAct{
+    background-color: #eee;
+    width: 95%;
+    height: 40px; 
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+.formulaire .submitUpdate, .formulaire .submitUpdateAnnuler{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 8px;
+    background-color: #0085ba;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.formulaire  .mce-tinymce{
+    width: 95% !important;
+}
+
+#lab_datefupdate{
+    margin-top: 10px;
+}
+
+.formulaire .AlbumForm{
+    visibility: visible;
+}
+.formulaire .AlbumForm .file_name,.formulaire .AlbumFormUpdate .file_name{
+    float: left;
+    width: 68%;
+    margin-right: 5px;
+    font-size: 1.3em;
+}
+.formulaire .AlbumForm input[type='file'],.formulaire .AlbumFormUpdate input[type='file']{
+    float: right;
+    
+}
+.formulaire .AlbumForm .titre_photo{
+    font-size: 1.3em;
+    width: 84%;
+}
+.formulaire .AlbumForm .submit_image,.formulaire .AlbumForm .submit_image_update{
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #0085ba;
+    color: #fff;
+    width: 81%;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/*.formulaire #appendbtn{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}*/
+
+
+
+.enregistrement{
+   padding: 0px !important; 
+}
+.enregistrement .blocENG .first{
+    background-color: #fff;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+.enregistrement .blocENG h6{
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.enregistrement .ENGB{
+    width:  178px;
+    font-size: 12px;
+    background-color: #0085ba;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-top: 7px;
+    border-radius: 6px;
+    text-align: center;
+    
+    
+}
+.enregistrement .blocENG .dashicons{
+    
+   /* -ms-transform: rotate(211deg) ;
+    -webkit-transform: rotate(211deg);
+    transform: rotate(211deg) ;*/
+   -ms-transform: rotate(148deg) ;
+   -webkit-transform: rotate(148deg);
+    transform: rotate(148deg);
+    margin-top: -28px;
+    display: block;
+    float: right;
+   /* margin-top: -33px;*/
+    margin-right: 10px;
+    cursor: pointer;
+}
+.enregistrement .blocENG .second{
+    visibility: visible;
+   
+}
+.enregistrement .blocENG .second .apercu{
+    
+    background-color: #fff;
+  /*  margin-top: -8px;*/
+    height: 110px;
+    position: relative;
+    border: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  
+}
+.enregistrement .blocENG .second .apercu a{
+    color: black; 
+    background-color: #f7f7f7;
+    padding: 8px; 
+    text-decoration: none;
+    float:right;
+    margin-top: 15px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc7c7;
+    border-radius: 5px;
+    
+}
+.enregistrement .blocENG .second .descr{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    
+}
+.enregistrement .blocENG .second .descr .fa{
+    -ms-transform: rotate(40deg) ;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(45deg);
+    float: left;
+} 
+.enregistrement .blocENG .second .descr span{
+    font-size: 12px;
+    float: right;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.enregistrement .blocENG .second .descr em{
+    font-weight: normal;
+}    
+.enregistrement .blocENG .second .appBtn{
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    height: 60px;
+    text-align: center;
+    
+}
+.enregistrement .blocENG .second .notif {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    height: 100px;
+    text-align: center;
+    display: none;
+}
+.enregistrement .blocENG .second .notif p{
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+    color: #d61f16;
+    
+}
+#btn_ajout,#btn_enregistrer,#colAjout{
+    
+    background-color: #0085ba;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+#colAjout{
+    width: 30%;
+    margin:auto;
+}
+#btn_enregistrer{
+    
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 8px;
+    margin-left: 37%;
+    width: 214px;
+}
+
+.fa-plus{
+    
+    color: #fff;
+}
+.formulaire input.titlePost{
+    font-size: 1.7em;
+    width: 95%;
+    
+}
+.fa-trash{
+    color: red;
+    cursor: pointer;
+    font-size: 18px !important;
+}
+
+
+.carousel-caption .content{
+       
+    opacity: 1;
+}
+
+#loading {
+    text-align:center;
+    display:none;
+    border:0px solid black;
+    position:absolute;
+    top:50%;
+    padding:2px;
+    z-index: 11111111;
+    opacity: 0.4;
+    height: 1689px;
+	background: url('/wp-content/plugins/Carnet_voyages/images/Loading_icon.gif') 50% 50% no-repeat rgb(249,249,249);
+
+}
+#loading img{
+	
+	   width: 100%;
+       max-width: 100%;
+		/*height: 100%;*/
+}
+	
+
+
+
+/* *****************    responsive      **********  */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+.datepickerdebutUpdate,.datepickerfinUpdate {
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+  #datepickerdebut, #datepickerfin{
+        width: 77%;
+    }
+ 
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .bloc_cdv label{
+        font-size: 12px;
+    }
+    .bloc_cdv label.grey{
+        font-size: 11px;
+    }
+    #datepickerdebut, #datepickerfin{
+        width: 60%;
+    }  
+ .formulaire .markerlink {
+    padding: 3px;
+    font-size: 8px;
+    margin-left: -6px;
+   
+}   
+ .formulaire .localisation .fa-map-marker {
+  
+    font-size: 13px;
+    padding: 6px;
+    
+}
+
+ #colAjout {
+    width: 38%;
+    margin: auto;
+  }   
+}
+
+.ui-datepicker-trigger{
+    
+    background: transparent;
+    border: none; 
+    
+}
+ #popupPhotoLandscape {
+   
+    display:none;
+}
+#popupPhotoLandscape   #canvas{
+  
+	max-width: 100%;
+	height: auto;
+    overflow:hidden; 
+}
+#popupPhotoLandscape  .jcrop-keymgr{
+    
+    visibility: hidden;
+}
+#popupPhotoLandscape  #cropbutton{
+    margin-top: 15px;
+    margin-left: 40%;
+     
+}
+.jcrop-holder {  
+    /*width: auto !important;
+    height: 433px !important;
+    */
+    }
+
+#popupPhotoLandscape .info {
+font-size: 14px;
+margin-top: 15px;
+}
+#popupPhotoLandscape label {
+margin: 0 5px;
+}
+#popupPhotoLandscape input {
+border: 1px solid #CCCCCC;
+border-radius: 10px;
+padding: 4px 8px;
+text-align: center;
+width: 70px;
+}
+.errorhh {
+font-size: 12px;
+font-weight: bold;
+color: red;
+padding: 15px;
+}
+
+#viewIMPp{
+	margin-top:35%;
+	height: 300px;
+	width: 500px;
+}
+#scalebutton,#rotatebutton{
+    
+    float: right;
+    margin-right: 5px;
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+.formulaire #viewIMP {
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.formulaire .imcdv input {
+   
+    font-size: 1.3em;
+}   
+ .formulaire .customaddmedia {
+    height: 32px;
+    padding-top: 4px;
+}
+.formulaire input.titleCdv {
+    
+    font-size: 1.3em;
+}
+.formulaire .presentation {
+    
+    font-size: 1.3em;
+}
+.enregistrement .blocENG h6 {
+    font-size: 9px;
+}
+.div_datepickerfin{
+    float: none;
+}
+#datepickerdebut, #datepickerfin {
+    width: 60%;
+}
+#preview{
+	
+    border-top: 1px solid rgb(221, 221, 221);
+    border-left: none;
+}
+ .formulaire .markerlink {
+    padding: 3px;
+    font-size: 8px;
+	margin-left: -6px;
+   
+}   
+ .formulaire .localisation .fa-map-marker {
+  
+    font-size: 13px;
+    padding: 6px;
+    
+}
+ #colAjout {
+    width: 38%;
+    margin: auto;
+  }
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.formulaire #viewIMP {
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.formulaire .imcdv input {
+   
+    font-size: 1em;
+}   
+ .formulaire .customaddmedia {
+    height: 32px;
+    padding-top: 4px;
+}
+.formulaire input.titleCdv {
+    
+    font-size: 1em;
+}
+.formulaire .presentation {
+    
+    font-size: 1em;
+}
+
+.datepickerdebutUpdate,.datepickerfinUpdate {
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+    
+.formulaire .pres{
+    font-size: 12px;
+    padding-left: 0px;
+}
+.formulaire .boutonsupprimer {
+    padding: 13px;
+    right: 65px;
+}
+.formulaire .dashicons-no {
+   padding: 0px;
+ 
+}
+#preview{
+	
+    border-top: 1px solid rgb(221, 221, 221);
+    border-left: none;
+}
+#datepickerdebut, #datepickerfin {
+    width: 60%;
+}
+#preview input[type=radio] {
+    height: 20px;
+    width: 20px;
+}
+#colAjout {
+    width: 47%;
+    margin: auto;
+  }
+  #btn_ajout{
+	  font-size:12px; 
+  }
+
+
+}
+
+    
+/* Portrait phones and smaller */
+@media (max-width: 480px) { 
+   #btn_enregistrer {
+    margin-left: 23%;
+  }
+}
